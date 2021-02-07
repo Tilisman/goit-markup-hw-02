@@ -35,6 +35,14 @@ address {
 }
 
 
+/* Header */
+
+.header .site-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+
 /* logo */
 
 .logo-accent {
