@@ -19,7 +19,6 @@ li {
 
 a {
     text-decoration: none;
-    color:
 }
 
 address {
@@ -49,16 +48,6 @@ address {
 .logo-footer {
     color: var(--primary-white);
 }
-
-
-/* .logo-accent {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    Font style: bold;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-} */
 
 .logo-accent,
 .logo-footer,

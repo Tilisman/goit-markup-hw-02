@@ -1,34 +1,3 @@
-/*
-li {
-    list-style: none;
-}
-
-[href] {
-    text-decoration: none;
-}
-
-.section {
-    color: var(--primary-text-color);
-}
-
-.section-title,
-.title {
-    color: var(--title-text-color);
-}
-
-
-/* Site Navigation */
-
-
-/* .nav-list .link {
-    color: var(--title-text-color);
-}
-
-.nav-list .link:hover,
-.nav-list .link:focus {
-    color: var(--accent-color); */
-
-
 /* Hero */
 
 .hero {
