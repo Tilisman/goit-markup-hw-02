@@ -1,4 +1,6 @@
-.title.hidden-title {}
+.title.hidden-title {
+    visibility: hidden;
+}
 
 .portfolio-list p {
     font-size: 16px;
