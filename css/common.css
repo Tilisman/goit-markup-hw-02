@@ -30,16 +30,11 @@ address {
     background-color: var(--primary-background);
 }
 
-.header {
-    border-bottom: solid #ECECEC;
-}
-
 
 /* Header */
 
-.header .site-nav {
-    display: flex;
-    flex-direction: row;
+.header {
+    border-bottom: solid #ECECEC;
 }
 
 
