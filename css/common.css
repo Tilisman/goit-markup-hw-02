@@ -7,6 +7,12 @@
     --primary-background: #2F303A;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background: #f5f7fa;
@@ -35,6 +41,27 @@ address {
 
 .header {
     border-bottom: solid #ECECEC;
+}
+
+
+/* Site Navigation */
+
+.nav-list .link.current {
+    color: var(--accent-color);
+}
+
+.nav-list .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left: 50px;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color: var(--accent-color);
 }
 
 
@@ -92,27 +119,11 @@ address {
 }
 
 
-/* Site Navigation */
-
-.nav-list .link.current {
-    color: var(--accent-color);
-}
-
-.nav-list .link {
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-}
-
-.nav-list .link:hover,
-.nav-list .link:focus {
-    color: var(--accent-color);
-}
-
-
 /* Footer */
+
+.footer {
+    width: 1600px;
+}
 
 .footer a {
     color: var(--color-lightgrey);

@@ -27,6 +27,7 @@
     position: absolute;
     left: 700px;
     top: 430px;
+    width: 200px;
     background-color: var(--accent-color);
     color: var(--primary-white);
     font-style: normal;
@@ -37,6 +38,9 @@
     align-items: center;
     text-align: center;
     padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    margin-top: 30px;
 }
 
 
@@ -64,9 +68,21 @@
 
 /* Features Section */
 
+.section-title.hidden-title {
+    visibility: hidden;
+}
+
 .features {
     display: flex;
     flex-direction: row;
+}
+
+.features>li {
+    margin-left: 30px;
+    width: 270px;
+    /* position: absolute;
+    width: 270px;
+    height: 101px; */
 }
 
 .features .list-title {
@@ -82,7 +98,7 @@
 .features p {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;

@@ -2,6 +2,28 @@
     visibility: hidden;
 }
 
+
+/* Button list */
+
+.btn-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-list li {
+    margin-left: 8px;
+}
+
+
+/* Portfolio Section */
+
+.section.portfolio {
+    /* display: flex;
+		flex-direction: row; */
+}
+
+.portfolio-list {}
+
 .portfolio-list p {
     font-size: 16px;
     font-weight: normal;
