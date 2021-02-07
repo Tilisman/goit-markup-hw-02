@@ -1,0 +1,140 @@
+:root {
+    --primary-text-color: #757575;
+    --color-lightgrey: rgba(255, 255, 255, 0.6);
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white: #ffffff;
+    --primary-background: #2F303A;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f5f7fa;
+    padding: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:
+}
+
+address {
+    font-style: normal;
+}
+
+.footer,
+.hero {
+    background-color: var(--primary-background);
+}
+
+.header {
+    border-bottom: solid #ECECEC;
+}
+
+
+/* logo */
+
+.logo-accent {
+    color: #2196F3;
+}
+
+.logo-header {
+    color: #212121;
+}
+
+.logo-footer {
+    color: var(--primary-white);
+}
+
+
+/* .logo-accent {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    Font style: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+} */
+
+.logo-accent,
+.logo-footer,
+.logo-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+
+/* contacts */
+
+.contacts-list .link {
+    color: var(--primary-text-color);
+}
+
+.contacts-list .link:hover,
+.contacts-list .link:focus {
+    color: var(--accent-color);
+}
+
+.section {
+    color: var(--primary-text-color);
+}
+
+.section-title,
+.title,
+.list-title {
+    color: var(--title-text-color);
+}
+
+.list-title {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+
+/* Site Navigation */
+
+.nav-list .link.current {
+    color: var(--accent-color);
+}
+
+.nav-list .link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* Footer */
+
+.footer a {
+    color: var(--color-lightgrey);
+}
+
+.footer .address {
+    color: var(--primary-white);
+}
+
+.adress a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
