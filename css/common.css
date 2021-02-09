@@ -154,7 +154,9 @@ address {
 
 .footer {
     width: 1600px;
-    height: 252px;
+    height: 192px;
+    padding-top: 60px;
+    padding-left: 215px;
 }
 
 .footer a {
@@ -165,6 +167,10 @@ address {
     color: var(--primary-white);
 }
 
+.all-logo-footer {
+    padding: 9px;
+}
+
 .adress a {
     font-family: 'Roboto';
     font-style: normal;
@@ -172,4 +178,17 @@ address {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+}
+
+.adress {
+    margin-top: 20px;
+}
+
+.adress p {
+    margin: 9px 0px 9px 0px;
+}
+
+.adress a {
+    padding: 9px;
+    /* margin: 9px; */
 }
