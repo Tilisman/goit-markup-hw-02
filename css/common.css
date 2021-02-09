@@ -41,7 +41,7 @@ address {
 
 .header {
     width: 1600px;
-    border-bottom: solid #ececec;
+    border-bottom: 1px solid #ececec;
 }
 
 
@@ -153,7 +153,6 @@ address {
 /* Footer */
 
 .footer {
-    width: 1600px;
     height: 192px;
     padding-top: 60px;
     padding-left: 215px;

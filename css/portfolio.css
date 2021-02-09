@@ -38,18 +38,16 @@
 
 .section.portfolio {
     width: 1170px;
-    align-items: center;
     /* display: flex;
 		flex-direction: row; */
 }
 
-.portfolio-list {
-    display: block;
-}
+.portfolio-list {}
 
 .portfolio-list li {
-    margin-right: auto;
-    display: block;
+    width: 370px;
+    border: 1px solid #eeeeee;
+    text-align: center;
 }
 
 .portfolio-list p {

@@ -9,11 +9,12 @@
 }
 
 .hero-title {
-    position: absolute;
+    /* position: absolute; */
     width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
+    /* height: 120px; */
+    padding-top: 164px;
+    /* left: 452px;
+    top: 280px; */
     color: var(--primary-white);
     font-weight: 900;
     font-style: normal;
@@ -25,9 +26,6 @@
 }
 
 .order-btn {
-    position: absolute;
-    left: 700px;
-    top: 430px;
     width: 200px;
     background-color: var(--accent-color);
     color: var(--primary-white);
@@ -69,18 +67,34 @@
 
 /* Features Section */
 
+.section.features {
+    margin: auto;
+}
+
 .section-title.hidden-title {
-    visibility: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features {
     display: flex;
     flex-direction: row;
+    margin-left: 145px;
 }
 
 .features>li {
-    margin-left: 30px;
+    padding: 15px;
     width: 270px;
+    margin-top: 48px;
+    margin-bottom: 48px;
 }
 
 .features .list-title {
@@ -108,23 +122,38 @@
 .about {
     display: flex;
     flex-direction: row;
+    margin-left: 145px;
+}
+
+.about .section-title {
+    text-align: center;
 }
 
 .about li {
-    margin-left: 30px;
+    padding-left: 30px;
 }
+
+.about-container {}
 
 
 /* Team Section */
 
 .section.team {
     background-color: var(--secondary-background);
+    margin-top: 94px;
+}
+
+.team .section-title {
     padding-top: 94px;
+    padding-bottom: 4px;
 }
 
 .team-list {
     display: flex;
     flex-direction: row;
+    margin-block-end: 0em;
+    padding-bottom: 94px;
+    padding-left: 145px;
 }
 
 .team-list li {
@@ -138,6 +167,7 @@
 }
 
 .team-list .list-title {
+    /* padding-top: 44px; */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
