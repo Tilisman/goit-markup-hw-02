@@ -2,15 +2,10 @@
     --primary-text-color: #757575;
     --color-lightgrey: rgba(255, 255, 255, 0.6);
     --title-text-color: #212121;
-    --accent-color: #2196F3;
+    --accent-color: #2196f3;
     --primary-white: #ffffff;
-    --primary-background: #2F303A;
-}
-
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+    --primary-background: #2f303a;
+    --secondary-background: #f5f4fa;
 }
 
 body {
@@ -36,15 +31,65 @@ address {
     background-color: var(--primary-background);
 }
 
+.wrapper {
+    width: 1600px;
+    background-color: var(--primary-white);
+}
+
 
 /* Header */
 
 .header {
-    border-bottom: solid #ECECEC;
+    width: 1600px;
+    border-bottom: solid #ececec;
 }
 
 
 /* Site Navigation */
+
+.site-nav {
+    display: flex;
+    width: 1170px;
+    height: 80px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 215px;
+    margin-right: 215px;
+    align-items: center;
+}
+
+
+/* logo */
+
+.logo-accent {
+    color: #2196f3;
+}
+
+.logo-header {
+    color: #212121;
+}
+
+.logo-footer {
+    color: var(--primary-white);
+}
+
+.logo-accent,
+.logo-footer,
+.logo-header {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+
+/* Navigation list */
+
+.nav-list {
+    display: flex;
+}
 
 .nav-list .link.current {
     color: var(--accent-color);
@@ -65,36 +110,22 @@ address {
 }
 
 
-/* logo */
-
-.logo-accent {
-    color: #2196F3;
-}
-
-.logo-header {
-    color: #212121;
-}
-
-.logo-footer {
-    color: var(--primary-white);
-}
-
-.logo-accent,
-.logo-footer,
-.logo-header {
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-}
-
-
 /* contacts */
+
+.contacts-list {
+    display: flex;
+    padding: 15px;
+    /* margin: auto;*/
+    margin-left: 215px;
+}
 
 .contacts-list .link {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    margin-left: 50px;
 }
 
 .contacts-list .link:hover,
@@ -123,6 +154,7 @@ address {
 
 .footer {
     width: 1600px;
+    height: 252px;
 }
 
 .footer a {

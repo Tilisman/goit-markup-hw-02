@@ -7,22 +7,50 @@
 
 .btn-list {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    width: 611px;
 }
 
 .btn-list li {
     margin-left: 8px;
+    max-width: 611px;
+}
+
+.btn-list button {
+    border: transparent;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding: 6px 21px;
+}
+
+.btn-list button:focus,
+.btn-list button:hover {
+    color: var(--primary-white);
+    background-color: var(--accent-color);
 }
 
 
 /* Portfolio Section */
 
 .section.portfolio {
+    width: 1170px;
+    align-items: center;
     /* display: flex;
 		flex-direction: row; */
 }
 
-.portfolio-list {}
+.portfolio-list {
+    display: block;
+}
+
+.portfolio-list li {
+    margin-right: auto;
+    display: block;
+}
 
 .portfolio-list p {
     font-size: 16px;
